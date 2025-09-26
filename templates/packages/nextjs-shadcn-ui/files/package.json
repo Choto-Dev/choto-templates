@@ -24,7 +24,6 @@
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.8",
     "@workspace/typescript-config": "workspace:*",
-    "postcss-load-config": "^6.0.1",
     "tailwindcss": "^4.1.13",
     "typescript": "catalog:"
   },
