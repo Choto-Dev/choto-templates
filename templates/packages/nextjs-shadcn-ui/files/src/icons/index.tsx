@@ -1,6 +1,6 @@
 /** biome-ignore-all lint/performance/noNamespaceImport: <"allow standard practice"> */
-import * as R from '@remixicon/react';
-import * as L from 'lucide-react';
+import * as R from "@remixicon/react";
+import * as L from "lucide-react";
 
 const Icons = { LucideIcon: L, RemixIcons: R };
 
