@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@workspace/design-system/*": ["./src/*"]
+      "@workspace/nextjs-shadcn-ui/*": ["./src/*"]
     }
   },
   "include": ["."],

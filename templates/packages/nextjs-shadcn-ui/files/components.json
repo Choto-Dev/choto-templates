@@ -11,10 +11,10 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@workspace/design-system/components",
-    "utils": "@workspace/design-system/lib/utils",
-    "hooks": "@workspace/design-system/hooks",
-    "lib": "@workspace/design-system/lib",
-    "ui": "@workspace/design-system/ui"
+    "components": "@workspace/nextjs-shadcn-ui/components",
+    "utils": "@workspace/nextjs-shadcn-ui/lib/utils",
+    "hooks": "@workspace/nextjs-shadcn-ui/hooks",
+    "lib": "@workspace/nextjs-shadcn-ui/lib",
+    "ui": "@workspace/nextjs-shadcn-ui/ui"
   }
 }

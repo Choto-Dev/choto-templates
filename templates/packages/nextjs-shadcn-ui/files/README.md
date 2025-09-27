@@ -1,4 +1,4 @@
-# `@workspace/design-system`
+# `@workspace/nextjs-shadcn-ui`
 
 UI Design System.
 
@@ -13,7 +13,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  transpilePackages: ['@workspace/design-system'],
+  transpilePackages: ['@workspace/nextjs-shadcn-ui'],
 };
 
 export default nextConfig;
@@ -27,7 +27,7 @@ export default nextConfig;
   // ...
   "devDependencies": {
     // ...
-    "@workspace/design-system": "workspace:*",
+    "@workspace/nextjs-shadcn-ui": "workspace:*",
     // ...
   }
 }
@@ -37,7 +37,7 @@ export default nextConfig;
 
 ```js filename=postcss.config.mjs
 // biome-ignore lint/performance/noBarrelFile: <"allow standard practice">
-export { default } from '@workspace/design-system/postcss.config';
+export { default } from '@workspace/nextjs-shadcn-ui/postcss.config';
 ```
 
 4. Update `tsconfig.json` file.
@@ -49,7 +49,7 @@ export { default } from '@workspace/design-system/postcss.config';
     // ...
     "paths": {
       // ...
-      "@workspace/design-system/*": ["../../packages/design-system/src/*"]
+      "@workspace/nextjs-shadcn-ui/*": ["../../packages/nextjs-shadcn-ui/src/*"]
     },
     // ...
   },

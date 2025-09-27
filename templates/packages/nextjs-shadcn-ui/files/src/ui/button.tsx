@@ -1,5 +1,5 @@
 import { Slot } from "@radix-ui/react-slot";
-import { cn } from "@workspace/design-system/lib/utils";
+import { cn } from "@workspace/nextjs-shadcn-ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type * as React from "react";
 
