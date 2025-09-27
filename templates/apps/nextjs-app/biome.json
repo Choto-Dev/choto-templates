@@ -1,0 +1,21 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
+  "root": false,
+  "extends": "//",
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    }
+  },
+  "linter": {
+    "rules": {
+      "nursery": {
+        "useSortedClasses": "on"
+      }
+    },
+    "domains": {
+      "next": "recommended",
+      "react": "recommended"
+    }
+  }
+}
