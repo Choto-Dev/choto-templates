@@ -1,5 +1,6 @@
 {
-  "name": "base",
+  "name": "Base",
+  "slug": "base",
   "namespace": "",
   "version": "0.0.1"
 }

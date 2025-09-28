@@ -1,5 +1,6 @@
 {
-  "name": "nextjs-shadcn-ui",
-  "namespace": "internal",
+  "name": "Nextjs Shadcn UI",
+  "slug": "nextjs-shadcn-ui",
+  "namespace": "packages",
   "version": "0.0.1"
 }
