@@ -1,4 +1,3 @@
-/** biome-ignore-all lint/performance/noNamespaceImport: <"allow standard practice"> */
 import * as R from "@remixicon/react";
 import * as L from "lucide-react";
 
