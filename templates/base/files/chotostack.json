@@ -1,0 +1,6 @@
+{
+  "workspace": "workspace",
+  "packages": {
+    "configs/typescript": "configs/typescript"
+  }
+}
