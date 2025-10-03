@@ -1,0 +1,6 @@
+{
+  "name": "New Package",
+  "slug": "new-package",
+  "namespace": "packages",
+  "version": "0.0.1"
+}
