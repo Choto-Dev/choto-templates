@@ -1,6 +1,6 @@
-import { Button } from '@workspace/nextjs-shadcn-ui/ui/button';
-import Link from 'next/link';
-import SwitchThemeButton from '@/components/switch-theme-button';
+import { Button } from "@workspace/nextjs-shadcn-ui/ui/button";
+import Link from "next/link";
+import SwitchThemeButton from "@/components/switch-theme-button";
 
 export default function Page() {
   return (
@@ -11,7 +11,7 @@ export default function Page() {
       <div className="flex items-center gap-2">
         <Button asChild>
           <Link
-            href={'https://stepasidelil.vercel.app/projects/little-proj'}
+            href={"https://stepasidelil.vercel.app/projects/little-proj"}
             target="_blank"
           >
             Read Docs and Start Coding
