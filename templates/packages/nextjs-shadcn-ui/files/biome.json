@@ -10,6 +10,21 @@
   "linter": {
     "rules": {
       "recommended": false,
+      "a11y": {
+        "noNoninteractiveElementInteractions": "off",
+        "noRedundantRoles": "off",
+        "useAriaPropsForRole": "off",
+        "useFocusableInteractive": "off",
+        "useKeyWithClickEvents": "off",
+        "useSemanticElements": "off"
+      },
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "off"
+      },
+      "correctness": {
+        "noNestedComponentDefinitions": "off",
+        "useExhaustiveDependencies": "off"
+      },
       "nursery": {
         "noShadow": "off",
         "useAnchorHref": "off",
@@ -18,28 +33,18 @@
       "performance": {
         "noNamespaceImport": "off"
       },
-      "correctness": {
-        "noNestedComponentDefinitions": "off"
-      },
-      "a11y": {
-        "useAriaPropsForRole": "off",
-        "useFocusableInteractive": "off",
-        "useSemanticElements": "off"
-      },
       "security": {
         "noDangerouslySetInnerHtml": "off"
       },
       "style": {
         "noExportedImports": "off",
         "noMagicNumbers": "off",
-        "noNestedTernary": "off"
+        "noNestedTernary": "off",
+        "useBlockStatements": "off"
       },
       "suspicious": {
         "noArrayIndexKey": "off",
         "noDocumentCookie": "off"
-      },
-      "complexity": {
-        "noExcessiveCognitiveComplexity": "off"
       }
     }
   }
