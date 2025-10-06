@@ -1,0 +1,11 @@
+{
+  "extends": "@workspace/typescript-config/base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/new-package/*": ["./src/*"]
+    }
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
+}

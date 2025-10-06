@@ -1,0 +1,31 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
+  "root": false,
+  "extends": "//",
+  "files": {
+    "includes": [
+      "**",
+      "!dev",
+      "!volumes/api",
+      "!volumes/db",
+      "!volumes/functions",
+      "!volumes/logs",
+      "!volumes/storage"
+    ]
+  },
+  "formatter": {
+    "lineEnding": "lf"
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double"
+    }
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noConsole": "off"
+      }
+    }
+  }
+}

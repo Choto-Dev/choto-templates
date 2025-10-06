@@ -1,0 +1,22 @@
+{
+  "name": "@workspace/supabase-local-docker",
+  "description": "Supabase local dev servers with docker.",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "biome check --write .",
+    "dev": "tsx ./scripts/dev.ts",
+    "docker:down": "docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml -f docker-compose.s3.yml down",
+    "docker:stop": "docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml -f docker-compose.s3.yml stop",
+    "docker:reset": "tsx ./scripts/reset.ts",
+    "docker:up": "docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml -f docker-compose.s3.yml up -d"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@workspace/typescript-config": "workspace:*",
+    "consola": "^3.4.2",
+    "tsx": "^4.20.6",
+    "typescript": "catalog:"
+  }
+}

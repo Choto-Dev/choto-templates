@@ -1,0 +1,6 @@
+{
+  "name": "Supabase Local Docker",
+  "slug": "supabase-local-docker",
+  "namespace": "packages",
+  "version": "0.0.1"
+}
